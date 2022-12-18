@@ -1,0 +1,35 @@
+
+  printf("Enter first numbers: ");
+  scanf("%d", &a);
+  printf("Enter second numbers: ");
+  scanf("%d", &b);
+  printf("Enter third numbers: ");
+  scanf("%d", &c);
+
+  
+  if (a > b) {
+    if (a > c) {
+      printf("The greatest value is %d\n", a);
+    } else {
+      printf("The greatest value is %d\n", c);
+    }
+  } else {
+    if (b > c) {
+      printf("The greatest value is %d\n", b);
+    } else {
+      printf("The greatest value is %d\n", c);
+    }
+  }
+  if (a = b){
+      if(a = c){
+          printf("All values are same");
+      }
+      
+  }else{
+      if(c =a ){
+          printf("")
+      }
+  }
+
+  
+}

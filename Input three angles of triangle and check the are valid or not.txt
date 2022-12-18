@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+void main() {
+    int a,b,c;
+    
+    printf("GIve the first angle or the triangle: ");
+    scanf("%d",&a);
+    
+    printf("GIve the second angle or the triangle: ");
+    scanf("%d",&b);
+    
+    printf("GIve the third angle or the triangle: ");
+    scanf("%d",&c);
+    
+    if (a+b+c == 180){
+        printf("The angles are valid");
+    }
+    else{
+        printf("The angles are not valid");
+    }
+}

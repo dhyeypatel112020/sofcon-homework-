@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+void main() {
+    int CP, SP;
+
+    printf("Enter the CP: ");
+    scanf("%d", &CP);
+    printf("Enter the SP: ");
+    scanf("%d", &SP);
+
+    if (SP > CP) {
+        printf("The business has made a profit of %d.", SP - CP);
+    }
+    else if (SP > SP) {
+        printf("The business has suffered a loss of %d.", CP - SP);
+    }
+    else {
+        printf("The business has neither made a profit nor suffered a loss.");
+    }
+
+   
+}

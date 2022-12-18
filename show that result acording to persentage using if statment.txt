@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+void main() {
+    int percentage;
+
+    printf("Enter your percentage: ");
+    scanf("%d", &percentage);
+
+    if (percentage >= 90) {
+        printf("Excellent");
+    }
+    else if (percentage >= 80) {
+        printf("Good");
+    }
+    else if (percentage >= 70) {
+        printf("Average");
+    }
+    else if (percentage >= 60) {
+        printf("Below Average");
+    }
+    else {
+        printf("Fail");
+    }
+
+   
+}
